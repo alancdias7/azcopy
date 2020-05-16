@@ -8,7 +8,7 @@ read-host "Digite a senha" -assecurestring | convertfrom-securestring | out
 $password = Get-Content C:\Bat\pass.txt | ConvertTo-SecureString
 
 #Informa a conta de e-mail de envio.
-$Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList alan.santos@bhs.com.br,$password
+$Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList exemplo@email.com,$password
 
 #Pasta de trabalho.
 $FolderPath = " C:\Bat"
