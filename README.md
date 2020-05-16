@@ -1,5 +1,5 @@
 # azcopy
-Copiar FileShare para BloStorage com envio de e-mail.
+#Copiar FileShare para BloStorage com envio de e-mail.
 
 #Ler a senha e armazenar seguramente em um arquivo de texto. Essa linha não deve permancer no script.
 read-host "Digite a senha" -assecurestring | convertfrom-securestring | out-file C:\Bat\pass.txt
